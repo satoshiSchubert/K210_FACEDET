@@ -45,8 +45,6 @@ https://www.bilibili.com/video/av925105825?share_medium=android&share_source=qq&
 官方交流群（有问题都可以在群里问，很快就会有解答）：
 荔枝 MaixPy AI 一群 878189804
 
-email：crisprhhx@outlook.com
-
-	  crisprhhx@qq.com
+如需联系作者，请通过Email联系。
 
 
