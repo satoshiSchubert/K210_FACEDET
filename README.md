@@ -3,8 +3,13 @@ TI_大学生电子设计大赛f题解决方案
 
 FACEDET-K210
 
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
+
 last Update:2020/12/20
-Author：crisprhhx
+|Author|crisprhhx|
+|---|---
+|E-mail|crisprhhx@outlook.com
+|---|crisprhhx@qq.com
 
 ## Introduction
 2020TI杯全国大学生电子设计大赛F题解决方案视觉部分。
@@ -14,13 +19,13 @@ Author：crisprhhx
 相关原理可以百度或谷歌，这些技术目前都已经非常成熟，网上有海量的资料可供学习，这里不再赘述。
 
 ## Setup
-0.首先你需要一块K210开发板
+0. 首先你需要一块K210开发板
 
-1.根据TUITION.jpg中的内容操作，配置环境；文件夹中两个bin文件是固件，因为后续步骤加载模型后会很占内存，因此需要切换成更小的固件（maixpy_dls_mini_with_openmv.bin）以腾出空间。
+1. 根据TUITION.jpg中的内容操作，配置环境；文件夹中两个bin文件是固件，因为后续步骤加载模型后会很占内存，因此需要切换成更小的固件（maixpy_dls_mini_with_openmv.bin）以腾出空间。
 
-2.在IDE中加载Release文件夹中的文件，其中main.py为源代码；其余三个为权重文件。
+2. 在IDE中加载Release文件夹中的文件，其中main.py为源代码；其余三个为权重文件。
 
-3.若需要实现脱离笔记本在k210上运行算法，需要准备一张SD卡，并将三个权重文件放进去。运行时k210将会从SD卡中加载模型到内存中。
+3. 若需要实现脱离笔记本在k210上运行算法，需要准备一张SD卡，并将三个权重文件放进去。运行时k210将会从SD卡中加载模型到内存中。
 
 Note：如果出现无法检测到sensor的情况，可能是因为摄像头接触不良。需要调整一下摄像头的位置或者重新插拔摄像头。
 
