@@ -1,6 +1,13 @@
 # K210_FACEDET
 2020年全国大学生电子设计竞赛F题视觉部分解决方案
 
+电控部分解决方案：
+https://github.com/mol666/TI2020_F_F407part
+温度拟合部分解决方案：
+https://blog.csdn.net/C_______________/article/details/109111308
+
+前排感谢队强大的队友:D
+
 FACEDET-K210
 
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
