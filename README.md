@@ -17,7 +17,7 @@ last Update:2020/12/20
 |Author|crisprhhx|
 |---|---
 |E-mail|crisprhhx@outlook.com
-|---|crisprhhx@qq.com
+|---|cosco@hnu.edu.cn
 
 ## Introduction
 2020TI杯全国大学生电子设计大赛F题解决方案视觉部分。
