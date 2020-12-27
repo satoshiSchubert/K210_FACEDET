@@ -106,7 +106,7 @@ class ModelContainer():
 
             # Create placeholders for NMS RPN inputs
             self.rpn_nms_bboxes_placeholder_ = tf.placeholder(tf.float32, shape=(None, 4), name='rpn_nms_bboxes')
-            self.rpn_nms_indices_placeholder_ = tf.placeholder(tf.int32, shape=(None), name='rpn_nms_indices')
+            self.rpn_nms_indices_placeholder_ = tf.placeholder(tf.float32, shape=(None), name='rpn_nms_indices')
 
             detection_graph_def = tf.GraphDef()
             with tf.gfile.GFile(PATH_TO_CKPT, 'rb') as fid:
@@ -121,7 +121,7 @@ class ModelContainer():
 
             # Recreate tensors we just replaced in the input_map
             self.rpn_nms_bboxes_ = tf.reshape(self.graph.get_tensor_by_name('detection/Reshape_3:0'), self.graph.get_tensor_by_name('detection/stack_3:0'), name='detection/Reshape')
-            self.rpn_nms_indices_ = tf.reshape(self.graph.get_tensor_by_name('detection/ExpandDims_1:0'), self.graph.get_tensor_by_name('detection/Reshape_1/shape:0'), name='detection/Reshape_1')  
+            self.rpn_nms_indices_ = tf.reshape(self.graph.get_tensor_by_name('detection/ExpandDims_1:0'), self.graph.get_tensor_by_name('detection/Reshape_1/shape:0'), name='detection/Reshape_1') 
 
             # Patch Loss
             self.patch_loss_ = tf.nn.l2_loss(RED_MASK*(self.clipped_patch_ - np.tile(np.array([ 1.0, -0.9, -1]), (psize, psize, 1))))
