@@ -7,13 +7,10 @@ https://github.com/mol666/TI2020_F_F407part
 温度拟合部分解决方案：
 https://blog.csdn.net/C_______________/article/details/109111308
 
-前排感谢强大的队友:D
-
-FACEDET-K210
-
+前排感谢强大的队友！
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
 
-last Update:2020/12/20
+last Update:2021/03/14
 |Author|crisprhhx|
 |---|---
 |E-mail|crisprhhx@outlook.com
